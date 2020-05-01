@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:background="#FFC107"
+        android:textAlignment="center"
+        android:singleLine="true"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/butt01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="按钮1"
+        android:textSize="24sp"
+        android:padding="24dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/butt02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="按钮2"
+        android:textSize="24sp"
+        android:padding="24dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/butt03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="按钮3"
+        android:textSize="24sp"
+        android:padding="24dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/chuan01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通传值"
+        android:textSize="24sp"
+        android:padding="24dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/chuan02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="粘性传值"
+        android:textSize="24sp"
+        android:padding="24dp"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
